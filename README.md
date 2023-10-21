@@ -20,9 +20,9 @@ Truffle is a collection of tools that simplifies the development of **blockchain
 
 **Installing Truffle**
 
-![Untitled](assets/Untitled 1.png)
+![Untitled](assets/Untitled%201.png)
 
-![Untitled](assets/Untitled 2.png)
+![Untitled](assets/Untitled%202.png)
 
 ---
 
@@ -32,11 +32,11 @@ Truffle Box : pre-configured **project template** that provides a foundation for
 
 - Unboxing a truffle box called **“pet-shop”**
 
-![Untitled](assets/Untitled 3.png)
+![Untitled](assets/Untitled%203.png)
 
 This is the project’s folder structure 
 
-![Untitled](assets/Untitled 4.png)
+![Untitled](assets/Untitled%204.png)
 
 - `contracts/`: Contains the [Solidity](https://solidity.readthedocs.io/) source files for our smart contracts. There is an important contract in here called `Migrations.sol`
 - `migrations/`: Truffle uses a migration system to handle smart contract deployments. A migration is an additional special smart contract that keeps track of changes.
@@ -55,13 +55,13 @@ First, we created an Ethereum address
 
 Then, we wrote 2 functions
 
-![Untitled](assets/Untitled 5.png)
+![Untitled](assets/Untitled%205.png)
 
 ---
 
 ### Compilation
 
-![Untitled](assets/Untitled 6.png)
+![Untitled](assets/Untitled%206.png)
 
 ⇒ Compiled successfully 
 
@@ -75,17 +75,17 @@ Then, we wrote 2 functions
 
 **Downloading Ganache** 
 
-![Untitled](assets/Untitled 7.png)
+![Untitled](assets/Untitled%207.png)
 
 **Migrating** 
 
-![Untitled](assets/Untitled 8.png)
+![Untitled](assets/Untitled%208.png)
 
-![Untitled](assets/Untitled 9.png)
+![Untitled](assets/Untitled%209.png)
 
 ⇒ migrations executed in order
 
-![Untitled](assets/Untitled 10.png)
+![Untitled](assets/Untitled%2010.png)
 
 **Note :** The blockchain now shows that the current block, previously `0`, is now `4`. In addition, while the first account originally had 100 ether, it is now lower, due to the transaction costs of migration.
 
@@ -93,21 +93,21 @@ Then, we wrote 2 functions
 
 ### **Testing the smart contract using Solidity**
 
-![Untitled](assets/Untitled 11.png)
+![Untitled](assets/Untitled%2011.png)
 
 ---
 
 ### Testing the smart contract using Javascript
 
-![Untitled](assets/Untitled 12.png)
+![Untitled](assets/Untitled%2012.png)
 
 ---
 
 ### Running the test
 
-![Untitled](assets/Untitled 13.png)
+![Untitled](assets/Untitled%2013.png)
 
-![Untitled](assets/Untitled 14.png)
+![Untitled](assets/Untitled%2014.png)
 
 ---
 
@@ -115,17 +115,17 @@ Then, we wrote 2 functions
 
 Downloading **Metamask** extension 
 
-![Untitled](assets/Untitled 15.png)
+![Untitled](assets/Untitled%2015.png)
 
-![Untitled](assets/Untitled 16.png)
+![Untitled](assets/Untitled%2016.png)
 
 We then created a new **network** : Ganache [localhost:7545](http://localhost:7545) 
 
-![Untitled](assets/Untitled 17.png)
+![Untitled](assets/Untitled%2017.png)
 
 **Note : Each account created by Ganache is given 100 ether. It's slightly less on the first account because some gas was used when the contract itself was deployed and when the tests were run.**
 
-![Untitled](assets/Untitled 18.png)
+![Untitled](assets/Untitled%2018.png)
 
 **⇒ The Configuration is now complete.**
 
@@ -135,11 +135,11 @@ We then created a new **network** : Ganache [localhost:7545](http://localhost:75
 
 - `lite-server` library : serve our static files. This shipped with the `pet-shop` Truffle Box
 
-![Untitled](assets/Untitled 19.png)
+![Untitled](assets/Untitled%2019.png)
 
 ⇒ This tells `lite-server` which files to include in our base directory. We add the `./src` directory for our website files and `./build/contracts` directory for the contract artifacts.
 
-![Untitled](assets/Untitled 20.png)
+![Untitled](assets/Untitled%2020.png)
 
 This tells npm to run our local install of `lite-server` when we execute `npm run dev` from the console.
 
@@ -149,24 +149,25 @@ This tells npm to run our local install of `lite-server` when we execute `npm
 
 - Start the local web server
 
-![Untitled](assets/Untitled 21.png)
+![Untitled](assets/Untitled%2021.png)
 
 [localhost:3000](http://localhost:3000) 
 
-![Untitled](assets/Untitled 22.png)
+![Untitled](assets/Untitled%2022.png)
 
 A **MetaMask** pop-up should appear requesting your approval to allow Pete's Pet Shop to connect to your **MetaMask** wallet.
 
-![Untitled](assets/Untitled 23.png)
+![Untitled](assets/Untitled%2023.png)
 
 After clicking the **Adopt** button on the pet of your choice
 
-![Untitled](assets/Untitled 24.png)
+![Untitled](assets/Untitled%2024.png)
 
 The button says **“Success”,** and in **MetaMask**
 
-![Untitled](assets/Untitled 25.png)
+![Untitled](assets/Untitled%2025.png)
 
 And in **Ganache**
 
-![Untitled](assets/Untitled 26.png)
+![Untitled](assets/Untitled%2026.png)
+![Untitled](assets/Untitled%2027.png)
